@@ -1,0 +1,21 @@
+{
+  "name": "streamlit-geo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src.ts --bundle --minify --sourcemap --outfile=dist/index.js",
+    "dev": "esbuild src.ts --bundle --minify --sourcemap --outfile=dist/index.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.19.5",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "streamlit-component-lib": "^2.0.0"
+  }
+}
